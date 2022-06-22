@@ -1,0 +1,87 @@
+.navbar-brand{
+    color: rgb(212, 25, 25);
+    font-size: 2.2rem;
+    font-family: 'Lobster', cursive;
+   
+}
+.navbar-brand:hover{
+    color:rgb(212, 25, 25);
+}
+.nav-link{
+    color: black;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-right: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+.nav-link:hover{
+    color:rgb(212, 25, 25);
+}
+.main{
+    background: url(./img/frontpageimg.jpg)no-repeat;
+    background-size: cover;
+    height: 88vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.main h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    margin-left: 52%;
+    margin-top: 100px;
+    font-family: 'Rubik', sans-serif;
+}
+.btn1{
+    height: 45px;
+    width: 170px;
+    outline: none;
+    border: none;
+    background-color: rgb(212, 25, 25);
+    border-radius: 200px;
+    margin-left: 67%;
+    margin-top: 42px;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 170px;
+    outline: none;
+    border: none;
+    background-color: rgb(212, 25, 25);
+    border-radius: 200px;
+    margin-top: 42px;
+    color: white;
+}
+.btn2:hover{
+    background-color: rgb(213, 70, 70);
+    transition: 0.5s;
+}
+.card:hover{
+    box-shadow: -3px -1px 25px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: -3px -1px 25px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px -1px 25px -7px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+.contact{
+    background-color: black;
+    color: #fff;
+}
+.btn3{
+    height: 45px;
+    width: 100px;
+    background: #fff;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 500;
+}
+.contact input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600; 
+}
